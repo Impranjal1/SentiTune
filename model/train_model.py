@@ -5,7 +5,7 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import accuracy_score, confusion_matrix
 
 # Load data from the text file
-data_file = "./data.txt"
+data_file = "./data_batch_30.txt"
 data = np.loadtxt(data_file)
 
 # Split data into features (X) and labels (y)
